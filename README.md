@@ -28,14 +28,3 @@ docker run --rm -v "$(pwd)/output:/project/output" capstone-analytics-demo
 
 In GitHub Actions, the workflow runs tests, produces an HTML report, builds the Docker image, runs the container, then uploads the HTML dashboard as a downloadable workflow artifact.
 
-## What to personalize before submitting
-
-1. Actually complete 5–10 hours of study and record the time spent.
-2. Understand the scripts and change the dataset, metrics, charting, tests, or failure rules so the final submission demonstrates **your** decisions and unique work.
-3. Push to a GitHub repository you own and verify the workflow finishes successfully. Capture a real screenshot of the Actions run.
-4. Replace any bracketed text in your assignment write-up with your real experience and verified repo URL. Do not claim Docker/GitHub Actions were run if you only ran the local Python tests.
-
-### Suggested learning resources
-- Instructor's video: https://www.youtube.com/watch?v=ioTsICXbI0Y
-- GitHub Actions Python tutorial: https://docs.github.com/en/actions/tutorials/build-and-test-code/python
-- Docker Python guide: https://docs.docker.com/guides/python/
